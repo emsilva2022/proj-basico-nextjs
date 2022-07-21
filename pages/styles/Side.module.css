@@ -1,0 +1,20 @@
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    height: 100%;
+    width: 260px;
+    background: #d6d1d1;
+    z-index: 100;
+    transition: all 0.5s ease;
+}
+
+.link_side {
+    padding: 10px;
+    margin: 0 15px 0 0;
+    white-space: nowrap;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space_between;
+}
